@@ -1,0 +1,48 @@
+*, html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #030303;
+    text-align: center;
+}
+header {
+    background-color: #1a1a1b;
+    padding: 16px;
+}
+article {
+    background-color: #1a1a1b;
+    color: white;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+a {
+    color: #818384;
+}
+a:hover {
+    color: #e9f5fd;
+}
+input[type=text], input[type=name] {
+    padding: 4px;
+    background-color: #272729;
+    color: #818384;
+    border: 1px solid #343536;
+}
+input[type=text]:hover, input[type=name]:hover {
+    border: 1px solid white;
+}
+input[type=submit] {
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    color: #818384;
+}
+input[type=submit]:hover {
+    background-color: #272729;
+}
